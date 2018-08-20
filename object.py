@@ -5,8 +5,6 @@
 from inicial import *
 
 
-
-
 baase_datos_txt("%s/__RESULTADOS__OBJECT/Base de datos inicial.txt"%ruta,"w")
 lista_lineas=lista_listas("%s/__RESULTADOS__OBJECT/Base de datos inicial.txt"%ruta,"r")
 
@@ -55,13 +53,13 @@ consumidores_seleccionados.seleccion()
 
 
 print("**************************************************************************************************************************************")
-print ('En la carpeta RESULTADOS__INICIAL ubicada en %s encontrara:\n\nBase de datos inicial.txt(Es el base'
+print ('En la carpeta RESULTADOS__OBJECT ubicada en %s encontrara:\n\nBase de datos inicial.txt(Es el base'
 ' de datos generada, donde se encuentran los datos de todos los consumidores)\n\nLista_seleccionados.html(Lista con'
 ' los consumidores seleccionados para la mejora del factor de potencia, se indican los datos de cada consumidor'
 ' incluyendo el coste y tiempo de amortización)\n\n' 
 'logging_profiling.txt(Registro en un archivo txt de las llamadas, variables y tiempo de ejecucion de las funciones'
 ' o metodos deseados)\n\n'
-'carpeta CARTAS_INICIAL(Carpeta que contiene la carta generada para cada consumidor, para informarle de los beneficios'
+'carpeta CARTAS_OBJECT(Carpeta que contiene la carta generada para cada consumidor, para informarle de los beneficios'
 ' que obtendría al mejorar su factor de potencia)'%ruta)
 print("\n**************************************************************************************************************************************")
 
