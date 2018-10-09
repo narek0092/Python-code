@@ -1,7 +1,8 @@
 # Python-code
  
 Both scripts can be executed with python 2.7 or 3.4 and with SO windows or Ubuntu.
-"inicial.py" is the first one that I crate, not using OOP (object-oriented programming), "object.py" is the second one that I create using OOP paradigm, it uses "inicial.py" as a module in order to reuse functions and variables. 
+
+"inicial.py" is the first one that I crate, not using OOP (object-oriented programming), "object.py" is the second one that I create using OOP paradigm, "object.py" uses "inicial.py" as a module in order to reuse functions and variables. 
 
 Both scripts generate the same result in the folder "RESULTADOS_INICIAL" or "RESULTADOS_OBJECT" depending on which script do you execute:
 
