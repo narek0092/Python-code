@@ -2,6 +2,10 @@
  
 Both scripts can be executed with python 2.7 or 3.4 and with SO windows or Ubuntu.
 
+
+When it is executed generates a database of electric power customers and selects the ones how can get a benefit from improving their power factor and calculates the needed initial investment and the payback time for each customer.
+
+
 "inicial.py" is the first one that I crate, not using OOP (object-oriented programming), "object.py" is the second one that I create using OOP paradigm, "object.py" uses "inicial.py" as a module in order to reuse functions and variables. 
 
 Both scripts generate the same result in the folder "RESULTADOS_INICIAL" or "RESULTADOS_OBJECT" depending on which script do you execute:
